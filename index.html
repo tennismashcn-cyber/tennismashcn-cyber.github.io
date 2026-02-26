@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - TenniSmash Remote</title>
+    <style>
+        :root {
+            --primary-color: #1a73e8;
+            --text-color: #202124;
+            --bg-color: #f4f7f9;
+            --card-bg: #ffffff;
+        }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; color: var(--text-color); max-width: 850px; margin: 0 auto; padding: 20px; background-color: var(--bg-color); }
+        .container { background: var(--card-bg); padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        
+        /* Language Switcher Styling */
+        .lang-switch { display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .lang-btn { background: #fff; border: 1px solid #dadce0; padding: 6px 14px; border-radius: 20px; cursor: pointer; font-size: 0.9em; transition: 0.3s; }
+        .lang-btn:hover { background: #f1f3f4; }
+        .lang-btn.active { background: var(--primary-color); color: white; border-color: var(--primary-color); }
+
+        h1 { color: var(--primary-color); border-bottom: 2px solid #e8f0fe; padding-bottom: 10px; font-size: 1.8em; }
+        h2 { color: #000; font-size: 1.25em; margin-top: 30px; border-left: 4px solid var(--primary-color); padding-left: 15px; }
+        .date { color: #70757a; font-size: 0.9em; margin-bottom: 25px; font-style: italic; }
+        .highlight { font-weight: bold; color: #d93025; }
+        .contact-box { background: #f8f9fa; border: 1px solid #dadce0; padding: 20px; border-radius: 8px; margin-top: 40px; }
+        
+        /* Hide all languages by default */
+        .content-lang { display: none; }
+        .content-lang.active { display: block; }
+    </style>
+</head>
+<body>
+
+<div class="lang-switch">
+    <button class="lang-btn active" onclick="setLang('en')">English</button>
+    <button class="lang-btn" onclick="setLang('de')">Deutsch</button>
+    <button class="lang-btn" onclick="setLang('zh-hans')">简体中文</button>
+    <button class="lang-btn" onclick="setLang('zh-hant')">繁體中文</button>
+</div>
+
+<div class="container">
+    
+    <div id="en" class="content-lang active">
+        <h1>Privacy Policy</h1>
+        <p class="date">Last Updated: January 28, 2026</p>
+        <h2>1. Overview</h2>
+        <p>TenniSmash Remote is a utility app by <strong>TenniSmash Co. Ltd.</strong> <span class="highlight">We do not collect, store, or share any of your personal data.</span></p>
+        <h2>2. Permissions</h2>
+        <p><strong>Bluetooth:</strong> Used to control your tennis ball machine. <strong>Location:</strong> Required for Bluetooth scanning on some OS versions; we do not track your location.</p>
+        <h2>3. Data Collection</h2>
+        <p>This app works entirely offline. We do not collect names, emails, or device IDs.</p>
+        <h2>4. Data Deletion</h2>
+        <p>Since we collect no data, there is nothing to delete from our servers. You can clear local data by uninstalling the app.</p>
+        <h2>5. Store Compliance</h2>
+        <p>Compliant with Apple App Store & Google Play Store privacy guidelines.</p>
+    </div>
+
+    <div id="de" class="content-lang">
+        <h1>Datenschutzerklärung</h1>
+        <p class="date">Zuletzt aktualisiert: 28. Januar 2026</p>
+        <h2>1. Überblick</h2>
+        <p>TenniSmash Remote von <strong>TenniSmash Co. Ltd.</strong> <span class="highlight">erhebt, speichert oder teilt keinerlei personenbezogene Daten.</span></p>
+        <h2>2. Berechtigungen</h2>
+        <p><strong>Bluetooth:</strong> Zur Steuerung der Ballmaschine. <strong>Standort:</strong> Erforderlich für Bluetooth-Scanning; wir verfolgen Ihren Standort nicht.</p>
+        <h2>3. Datenerhebung</h2>
+        <p>Die App arbeitet vollständig offline. Wir erfassen keine Namen, E-Mails oder Geräte-IDs.</p>
+        <h2>4. Datenlöschung</h2>
+        <p>Da keine Daten erhoben werden, gibt es nichts zu löschen. Lokale Daten werden beim Deinstallieren entfernt.</p>
+        <h2>5. Store-Konformität</h2>
+        <p>Entspricht den Datenschutzrichtlinien des App Store und Google Play Store.</p>
+    </div>
+
+    <div id="zh-hans" class="content-lang">
+        <h1>隐私权政策</h1>
+        <p class="date">生效日期：2026年1月28日</p>
+        <h2>1. 概述</h2>
+        <p>TenniSmash Remote 是由 <strong>TenniSmash Co. Ltd.</strong> 开发的工具应用。<span class="highlight">我们不收集、不存储、也不分享您的任何个人数据。</span></p>
+        <h2>2. 权限说明</h2>
+        <p><strong>蓝牙：</strong>用于连接和控制发球机。<strong>定位权限：</strong>仅用于满足蓝牙扫描的系统要求，我们不记录您的位置。</p>
+        <h2>3. 数据收集</h2>
+        <p>本应用为纯离线版。我们不收集姓名、邮箱或设备标识符，不具备联网功能。</p>
+        <h2>4. 数据删除</h2>
+        <p>由于不收集任何数据，因此无需删除。您可以通过卸载应用清除本地缓存。</p>
+        <h2>5. 平台合规性</h2>
+        <p>符合 Apple App Store 和 Google Play 关于用户隐私的透明度要求。</p>
+    </div>
+
+    <div id="zh-hant" class="content-lang">
+        <h1>隱私權政策</h1>
+        <p class="date">生效日期：2026年1月28日</p>
+        <h2>1. 概述</h2>
+        <p>TenniSmash Remote 是由 <strong>TenniSmash Co. Ltd.</strong> 開發的工具應用。<span class="highlight">我們不收集、不存儲、也不分享您的任何個人數據。</span></p>
+        <h2>2. 權限說明</h2>
+        <p><strong>藍牙：</strong>用於連接和控制發球機。<strong>定位權限：</strong>僅用於滿足藍牙掃描的系統要求，我們不記錄您的位置。</p>
+        <h2>3. 數據收集</h2>
+        <p>本應用為純離線版。我們不收集姓名、郵箱或設備識別碼，不具備聯網功能。</p>
+        <h2>4. 數據刪除</h2>
+        <p>由於不收集任何數據，因此無需刪除。您可以透過解除安裝應用程式清除本地快取。</p>
+        <h2>5. 平台合規性</h2>
+        <p>符合 Apple App Store 和 Google Play 關於用戶隱私的透明度要求。</p>
+    </div>
+
+    <div class="contact-box">
+        <strong>Contact / 联系我们:</strong><br>
+        TenniSmash Co. Ltd.<br>
+        Email: <a href="mailto:dev@tennismash.cn">dev@tennismash.cn</a>
+    </div>
+</div>
+
+<script>
+    function setLang(langId) {
+        // Remove active class from all contents and buttons
+        document.querySelectorAll('.content-lang').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+        
+        // Add active class to selected content and button
+        document.getElementById(langId).classList.add('active');
+        event.currentTarget.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
